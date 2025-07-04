@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Retro TV 360 Viewer</title>
+  <link rel="stylesheet" href="img.css">
+</head>
+<body>
+  <div class="retro-tv">
+    <div class="tv-screen">
+      <div id="viewer-container">
+        <img id="panorama" src="" alt="360 view" draggable="false" />
+      </div>
+    </div>
+    <div class="tv-controls">
+      <button id="dark-mode-toggle" class="tv-btn">Dark</button>
+      <input type="file" id="image-input" accept="image/*" class="tv-file">
+      <div id="joystick-circular" class="tv-joystick">
+        <div id="joystick-base">
+          <div id="joystick-thumb"></div>
+        </div>
+      </div>
+    </div>
+    <div class="tv-speaker"></div>
+    <div class="tv-knobs">
+      <div class="tv-knob"></div>
+      <div class="tv-knob"></div>
+    </div>
+  </div>
+  <script src="img.js"></script>
+</body>
+</html>
